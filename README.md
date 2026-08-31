@@ -200,3 +200,29 @@ The full walkthrough recording is available in [`video/VehicleServiceManagement_
 
 Developed by **Tharunkumar K** ([VSB Engineering College, Karur](https://vsbec.com/)) as part of the **Pega Next-Gen Innovators Program (NIP)**.
 
+
+
+## 📸 Visual Artifacts & User Story Proof Gallery
+
+### 📊 Development Overview (34 of 35 User Stories Done - 97%)
+![Development Overview](screenshots/Development_Overview_34_of_35_Stories_Done.png)
+
+---
+
+### 🖼️ Core User Stories (US-001 to US-010) Evidence Gallery
+
+| User Story | Feature Description | Visual Evidence |
+| :--- | :--- | :--- |
+| **US-001** | Submit Vehicle Service Request Intake | ![US-001](screenshots/US-001_Submit_Vehicle_Service_Request.png) |
+| **US-002** | Perform Multi-Point Vehicle Diagnostic Inspection | ![US-002](screenshots/US-002_Perform_Vehicle_Inspection.png) |
+| **US-003** | Generate Service Cost Estimate | ![US-003](screenshots/US-003_Generate_Service_Estimate.png) |
+| **US-004** | Customer Approval Decision Gate | ![US-004](screenshots/US-004_Approve_Service_Estimate.png) |
+| **US-005** | Maintain Master Vehicle Data Model | ![US-005](screenshots/US-005_Maintain_Vehicle_Data.png) |
+| **US-006** | Service Estimate Review & Validation | ![US-006](screenshots/US-006_Review_Service_Estimate.png) |
+| **US-007** | Auto-Assign Technician & Work Queue Routing | ![US-007](screenshots/US-007_Auto_Assign_Technician.png) |
+| **US-008** | Customer Notification & Service Completion | ![US-008](screenshots/US-008_Notify_Service_Completion.png) |
+| **US-009** | Define Service Level Agreements (SLA) & Timers | ![US-009](screenshots/US-009_Define_Service_SLA.png) |
+| **US-010** | Dynamic Case Routing by Vehicle Classification | ![US-010](screenshots/US-010_Route_Service_Request_by_Vehicle_Type.png) |
+| **Resolution** | Terminal Case Resolution (Resolved-Completed) | ![Resolution](screenshots/FINAL_CASE_RUN_RESOLVED_COMPLETED.png) |
+| **Dev Studio** | Dev Studio Technical Ruleset & Property Inventory | ![Dev Studio](screenshots/Dev_Studio_Ruleset_Inventory.png) |
+
