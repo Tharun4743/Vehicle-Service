@@ -10,6 +10,34 @@
 
 ---
 
+## 🎥 Demonstration Video (9.5 Minutes)
+
+<div align="center">
+  <video src="https://github.com/Tharun4743/Vehicle-Service/raw/main/video/VehicleServiceManagement_Demo_Tharunkumar_K.webm" controls="controls" width="100%" style="max-height: 500px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
+    <source src="./video/VehicleServiceManagement_Demo_Tharunkumar_K.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p>
+    🎬 <b><a href="https://github.com/Tharun4743/Vehicle-Service/raw/main/video/VehicleServiceManagement_Demo_Tharunkumar_K.webm">Click here to Download / Watch Master Demo Video (HD 720p - 31.15 MB)</a></b>
+  </p>
+</div>
+
+---
+
+## 📋 Pega Submission & Environment Credentials
+
+| Field / Key | Form Value / Details |
+| :--- | :--- |
+| **Pega Application Name** | `NIP-VehicleService-TharunkumarK` *(Pega App ID: `VehicleServiceManagement`)* |
+| **Case Type Name (exact)** | `Vehicle Service Request` |
+| **Operator Name** | `Tharunkumar K` |
+| **Operator Username** | `author@uplus` |
+| **Operator Password** | `pega123!` |
+| **Pega Instance URL** | [https://fzckire5.pegacea.net/prweb/app/vehicle-service-management](https://fzckire5.pegacea.net/prweb/app/vehicle-service-management) |
+| **Alternate Login URL** | [https://fzckire5.pegacea.net/prweb/](https://fzckire5.pegacea.net/prweb/) |
+
+---
+
 ## 👨‍💻 Candidate Profile
 
 | Detail | Information |
@@ -20,7 +48,6 @@
 | **Email** | `tharunkumark42007@gmail.com` |
 | **Phone** | `+91 87609 64830` |
 | **Portfolio** | [tharunkumark4743.netlify.app](https://tharunkumark4743.netlify.app/) |
-| **Pega Operator** | `Tharunkumar K` (`author@uplus`) |
 
 ---
 
