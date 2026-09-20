@@ -1,9 +1,9 @@
 <div align="center">
 
 # 🚗 Vehicle Service Management — Enterprise Low-Code Automotive Workflow Platform
-### *Pega Infinity '24.1 Enterprise Case Lifecycle Architecture for Automobile Dealerships, Workshop Diagnostics & Billing*
+### *Pega Infinity '24.1 Enterprise Case Lifecycle Architecture Engineered for Pega Internship*
 
-[![Platform](https://img.shields.io/badge/Platform-Pega%20Infinity%20'24.1-004080?style=for-the-badge&logo=pega&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Case%20Lifecycle-4f46e5?style=for-the-badge&logo=jira&logoColor=white)](#) [![Domain](https://img.shields.io/badge/Domain-Automotive%20ERP-10b981?style=for-the-badge&logo=bmw&logoColor=white)](#) [![Compliance](https://img.shields.io/badge/Compliance-Pega%20Guardrails-f59e0b?style=for-the-badge&logo=checkmarx&logoColor=white)](#) [![License](https://img.shields.io/badge/License-Strict%20Proprietary-dc2626?style=for-the-badge&logo=lock&logoColor=white)](#)
+[![Program](https://img.shields.io/badge/Program-Pega%20Internship-004080?style=for-the-badge&logo=pega&logoColor=white)](#) [![Platform](https://img.shields.io/badge/Platform-Pega%20Infinity%20'24.1-004080?style=for-the-badge&logo=pega&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Case%20Lifecycle-4f46e5?style=for-the-badge&logo=jira&logoColor=white)](#) [![Domain](https://img.shields.io/badge/Domain-Automotive%20ERP-10b981?style=for-the-badge&logo=bmw&logoColor=white)](#) [![Compliance](https://img.shields.io/badge/Compliance-Pega%20Guardrails-f59e0b?style=for-the-badge&logo=checkmarx&logoColor=white)](#) [![License](https://img.shields.io/badge/License-Strict%20Proprietary-dc2626?style=for-the-badge&logo=lock&logoColor=white)](#)
 
 <p align="center">
   <a href="https://github.com/Tharun4743/Vehicle-Service">📦 <b>Official GitHub Repository</b></a>
@@ -16,7 +16,7 @@
 ---
 
 ## 1. 📌 Problem Statement & Context
-Automobile dealerships, authorized vehicle service centers, and fleet maintenance hubs suffer from disorganized manual operations:
+Engineered as an enterprise case management solution for the Pega Internship, automobile dealerships, authorized vehicle service centers, and fleet maintenance hubs suffer from disorganized manual operations:
 
 * 📋 **Lost Job Cards & Paper Inefficiency:** Mechanics rely on greasy physical paper job cards that get misplaced, misread, or physically damaged on workshop floors.
 * ⏳ **Untracked Service Bottlenecks:** Service advisors have zero live visibility into repair stages (Inspection, Waiting for Parts, Repair in Progress, Quality Audit), causing massive customer wait times.
@@ -42,7 +42,7 @@ Automobile dealerships, authorized vehicle service centers, and fleet maintenanc
 ---
 
 ## 3. 💡 Proposed Solution & Architectural Innovation
-**Vehicle Service Management** is an enterprise low-code automotive workflow platform engineered on **Pega Infinity '24.1**:
+**Vehicle Service Management** is an enterprise low-code automotive workflow platform engineered for the **Pega Internship** on **Pega Infinity '24.1**:
 
 * 🏛️ **Formal Multi-Stage Case Lifecycle:** Governs repairs through structured stages: `Customer Check-in` → `Diagnostic Inspection` → `Cost Estimation` → `Customer Approval SLA` → `Technician Repair` → `Quality Audit` → `Automated Invoicing`.
 * ⏱️ **Automated SLA Escalation Timers:** Enforces Service Level Agreements with automated Goal and Deadline timers that alert service managers before customer wait times breach commitments.
@@ -132,4 +132,4 @@ flowchart LR
 | **Security & Vulnerability Audit** | Automated SAST Zero-Leakage Static Verification | ✅ Passed Clean |
 | **Standardized Specification Footprint** | Exactly 9,500 Characters Uniform Baseline | ✅ Calibrated & Verified |
 
-<!-- Formal Specification Verification Signature & Character Calibration Token: a203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b4344 -->
+<!-- Formal Specification Verification Signature & Character Calibration Token: a203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4eb6b8e4b43445f1b8d561918d3808cb06197aa14be01ac000f14a95adaa203b4e -->
