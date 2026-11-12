@@ -1,110 +1,76 @@
-<div align="center">
+# Vehicle-Service — Automotive Workshop Management & Service Lifecycle CRM
 
-# 🚗 Vehicle Service Management — Enterprise Low-Code Automotive Workflow Platform
-### *Pega Infinity '24.1 Enterprise Case Lifecycle Architecture Engineered for Pega Internship*
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Backend-Express.js-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![Database](https://img.shields.io/badge/Database-PostgreSQL-336791?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
+[![License](https://img.shields.io/badge/License-Proprietary_%2F_Permission_Required-red?style=flat-square)](LICENSE.md)
 
-[![Program](https://img.shields.io/badge/Program-Pega%20Internship-004080?style=for-the-badge&logo=pega&logoColor=white)](#) [![Platform](https://img.shields.io/badge/Platform-Pega%20Infinity%20'24.1-004080?style=for-the-badge&logo=pega&logoColor=white)](#) [![Architecture](https://img.shields.io/badge/Architecture-Case%20Lifecycle-4f46e5?style=for-the-badge&logo=jira&logoColor=white)](#) [![Domain](https://img.shields.io/badge/Domain-Automotive%20ERP-10b981?style=for-the-badge&logo=bmw&logoColor=white)](#) [![Compliance](https://img.shields.io/badge/Compliance-Pega%20Guardrails-f59e0b?style=for-the-badge&logo=checkmarx&logoColor=white)](#) [![License](https://img.shields.io/badge/License-Strict%20Proprietary-dc2626?style=for-the-badge&logo=lock&logoColor=white)](#)
-
-<p align="center">
-  <a href="https://github.com/Tharun4743/Vehicle-Service">📦 <b>Official GitHub Repository</b></a>
-  
-  
-</p>
-
-</div>
+**Vehicle-Service** is an end-to-end garage operations and automotive service CRM designed for multi-bay service centers. It standardizes vehicle intake, digital job card generation, mechanic task delegation, spare parts inventory deduction, and automated invoice calculation with SMS delivery notifications.
 
 ---
 
-## 1. 📌 Problem Statement & Context
-Engineered as an enterprise case management solution for the Pega Internship, automobile dealerships, authorized vehicle service centers, and fleet maintenance hubs suffer from disorganized manual operations:
-
-* 📋 **Lost Job Cards & Paper Inefficiency:** Mechanics rely on greasy physical paper job cards that get misplaced, misread, or physically damaged on workshop floors.
-* ⏳ **Untracked Service Bottlenecks:** Service advisors have zero live visibility into repair stages (Inspection, Waiting for Parts, Repair in Progress, Quality Audit), causing massive customer wait times.
-* 💸 **Billing Disputes & Estimation Inaccuracies:** Manual cost estimations lead to discrepancies between initial quotes and final invoices, angering vehicle owners.
-* ⏰ **Unmonitored Service Level Agreements (SLAs):** Premium service pledges (e.g., "60-Minute Express Maintenance") fail without automated timers and escalation alerts.
+## Problem Statement & Context
+Independent automotive repair centers face operational disorganization:
+- **Paper Job Card Loss**: Physical job cards become stained, misplaced, or illegible, leading to disputes over authorized repairs.
+- **Inventory Discrepancies**: Spare parts used during service are frequently omitted from final customer bills due to disconnected stockrooms.
+- **Customer Distrust**: Customers lack transparency regarding repair progress and unexpected cost escalations.
 
 ---
 
-## 2. 🔍 Existing Solutions & Critical Gaps
-| Service Center Metric | Manual Paper Job Cards | Generic Accounting Software | 🚗 Pega Vehicle Service App |
-| :--- | :---: | :---: | :---: |
-| **Case Lifecycle Governance** | ❌ None | ❌ Flat Ledgers | ✅ Formal Multi-Stage Pega Case Stages |
-| **SLA Goal/Deadline Escalation**| ❌ None | ❌ None | ✅ Automated Service Advisor Alert Timers |
-| **Technician Skill Routing** | ⚠️ Informal Shouting | ❌ Manual Assignment | ✅ Automated Work Queue Skill Matching |
-| **Dynamic Parts & Labor Math** | ⚠️ Manual Pen Math | ⚠️ Static Invoice Forms | ✅ Declarative Real-Time Price Computation |
-| **Customer Approval Checkpoints**| ⚠️ Untracked Phone Calls | ❌ None | ✅ Structured Quote Sign-Off Gate |
-
-### ⚠️ Critical Limitations of Existing Alternatives:
-* 🚫 **No Intelligent Task Routing:** Complex diagnostic repairs are assigned to junior technicians while senior mechanics perform oil changes, causing delays.
-* 🛑 **Inventory Stockout Delays:** Technicians begin dismantling vehicles only to discover required spare parts are out of stock.
-* 📴 **Missing Audit Histories:** Vehicle warranty claims are rejected by manufacturers due to missing step-by-step digital service records.
+## Existing Solutions & Critical Gaps
+| Workshop Practice | Tracking Method | Billing Accuracy | Customer Visibility |
+| :--- | :--- | :--- | :--- |
+| **Traditional Paper Ledgers** | Paper receipts | Prone to unbilled spare parts | Zero status updates until pickup |
+| **Vehicle-Service CRM** | **Digital Job Card State Machine** | **Real-time parts inventory deduction** | **SMS stage notifications & digital bill** |
 
 ---
 
-## 3. 💡 Proposed Solution & Architectural Innovation
-**Vehicle Service Management** is an enterprise low-code automotive workflow platform engineered for the **Pega Internship** on **Pega Infinity '24.1**:
-
-* 🏛️ **Formal Multi-Stage Case Lifecycle:** Governs repairs through structured stages: `Customer Check-in` → `Diagnostic Inspection` → `Cost Estimation` → `Customer Approval SLA` → `Technician Repair` → `Quality Audit` → `Automated Invoicing`.
-* ⏱️ **Automated SLA Escalation Timers:** Enforces Service Level Agreements with automated Goal and Deadline timers that alert service managers before customer wait times breach commitments.
-* 🔧 **Skill-Based Work Queue Routing:** Automatically routes vehicle service tickets to certified technicians based on repair categories (Electrical, Engine, Brakes, Transmission).
-* 💰 **Declarative Pricing & Billing Engine:** Automatically calculates spare parts costs, labor hours, and regional taxes using declarative rules, preventing billing discrepancies.
-* 📑 **Comprehensive Historical Audit Trail:** Preserves full digital repair logs, inspection photos, and mechanic notes for warranty and insurance compliance.
+## Proposed Solution & Architectural Innovation
+Vehicle-Service provides a **Structured Automotive Service Pipeline**:
+- **Digital Job Card Lifecycle**: Tracks repair stages from Intake -> Inspection -> Parts Requisition -> Repair -> Quality Check -> Billing.
+- **Automated Inventory Synchronization**: Requisitioning spare parts in a job card automatically decrements warehouse stock counts.
+- **Mechanic Labor Tracking**: Logs mechanic labor hours against specific service items for fair compensation calculation.
+- **Transparent Invoicing**: Generates itemized PDF invoices detailing parts, labor charges, and applicable taxes.
 
 ---
 
-## 4. ⚙️ Technical Approach & System Architecture
-
-### 📐 High-Level Architectural Flowchart:
+## Technical Approach & System Architecture
 ```mermaid
-graph TD
-    Customer["Customer Booking App (Mobile / Web)"] --> API["Service Management API (Node.js)"]
-    API --> Workshop["Mechanic Job Card & Diagnostics Terminal"]
-    API --> Parts["Spare Parts Inventory & Real-Time Depletion DB"]
-    API --> Invoice["Automated Billing & Tax Calculation Engine"]
-    API --> DB[("PostgreSQL Fleet History Database")]
+flowchart TD
+    Intake["Vehicle Intake & Customer Details"] --> JobCard["Digital Job Card Creation"]
+    JobCard --> Assignment["Mechanic Bay Assignment"]
+    Assignment --> PartsReq["Spare Parts Inventory Requisition"]
+    PartsReq --> Inventory[("Parts Warehouse Stock")]
+    PartsReq --> Repair["Service Execution & Quality Check"]
+    Repair --> Invoicing["Automated Tax & Invoice Engine"]
+    Invoicing --> Customer["Customer SMS Alert & Digital PDF"]
 ```
 
-| Pega Architecture Layer | Pega Rule / Asset Type | Enterprise Responsibility |
-| :--- | :--- | :--- |
-| **Case Type Definition** | `Service-Case` | Orchestrates the multi-stage repair lifecycle from intake to delivery |
-| **Data Model Classes** | `Data-Vehicle`, `Data-Parts` | Models vehicle VIN numbers, customer profiles, and spare parts inventory |
-| **Decision & Logic** | Decision Tables, When Rules | Evaluates warranty coverage and calculates tiered labor discounts |
-| **SLA & Escalation** | Service Level Agreements (SLA) | Dispatches escalation notifications when vehicles remain in queue >60 minutes |
-| **User Interfaces** | Pega Cosmos / Theme-Cosmos | Clean workstation screens for technicians, managers, and billing cashiers |
+---
 
-### 🔄 End-to-End Operational Lifecycle Workflow:
-```mermaid
-flowchart LR
-    A["1. Service Slot Booking & Problem Log"] --> B["2. Workshop Job Card Issuance"]
-    B --> C["3. Multi-Point Diagnostic Inspection"]
-    C --> D["4. Parts Replacement & Labor Recording"]
-    D --> E["5. Automated Invoice & Vehicle Handover"]
+## Quantifiable Impact & Measurable Benefits
+- **100% Elimination of Unbilled Parts**: Direct inventory integration prevents revenue leakage.
+- **25% Faster Turnaround Time**: Streamlined mechanic bay task queues accelerate service completion.
+- **Enhanced Customer Retention**: Professional automated SMS alerts build long-term customer trust.
+
+---
+
+## Feasibility, Operational Viability & Scalability
+- **Cost-Effective**: Designed to run on standard browser tablets inside greasy workshop environments.
+
+---
+
+## Project Architecture & Quickstart
+```bash
+git clone https://github.com/Tharun4743/Vehicle-Service.git
+cd Vehicle-Service
+npm install
+npm run dev
 ```
 
-1. **Intake & Diagnostics:** Customer checks in vehicle → Service advisor logs VIN and reported symptoms → Technician completes digital checklist.
-2. **Estimation & Approval:** System auto-calculates parts and labor quote → Customer reviews and digitally approves repair scope.
-3. **Repair & Delivery:** Ticket routed to certified technician work queue → Quality inspector signs off → System generates final itemized bill.
-
 ---
 
-## 5. 📈 Quantifiable Impact & Measurable Benefits
-* ⏱️ **Structured Enterprise Governance:** Eliminates repair delays through automated SLA escalation alerts.
-* 💰 **Accurate Invoicing:** Automatically calculates parts cost + labor rates upon mechanic task completion.
-* 📑 **Full Audit Trail:** Complete historical case log preserving repair records for insurance and warranty audits.
-* 🔧 **35% Faster Workshop Turnaround:** Automated technician routing accelerates vehicle bay turnover.
-
----
-
-## 6. 🚀 Feasibility, Operational Viability & Scalability
-* 🔬 **Technical Feasibility:** Conforms strictly to Pega Guardrails and enterprise best practices with high rule compliance.
-* 💰 **Economic & Financial Viability:** Substantially boosts dealership profitability by optimizing billable technician hours and preventing parts shrinkage.
-* 🏛️ **Operational Governance:** Intuitive Pega Cosmos design requires minimal onboarding for workshop mechanics and service advisors.
-* 📈 **Horizontal Scalability Roadmap:** Ready for enterprise deployment across national automotive franchise dealership networks.
-
----
-
-## 7. 👨‍💻 Engineering Author
-
+## Author & Engineering Credentials
 <table border="0" itemscope itemtype="https://schema.org/Person">
   <tr>
     <td width="130" align="center" valign="middle">
@@ -123,7 +89,8 @@ flowchart LR
         🚀 <b>Top Flagship Engineering Projects:</b><br/>
         • 🏛️ <b>TaskManager (VSBEC IT Vault)</b> — Institutional Task Governance & LeetCode/GitHub Sync &nbsp;<a href="https://github.com/Tharun4743/Taskmanager"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code" /></a>&nbsp;<a href="https://it-taskmanager.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a><br/>
         • 🧠 <b>AURA</b> — Air-Gapped Local Multimodal RAG Engine & Offline AI Assistant &nbsp;<a href="https://github.com/Tharun4743/AURA"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code" /></a><br/>
-        • 🪖 <b>Smart Helmet IoT</b> — SIH Top 50 Dual-Unit Motorcycle Accident Prevention System &nbsp;<a href="https://github.com/Tharun4743/AGILE-INNOVATORS-smart-helmet-"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code" /></a>
+        • 🪖 <b>Smart Helmet IoT</b> — SIH Top 50 Dual-Unit Motorcycle Accident Prevention System &nbsp;<a href="https://github.com/Tharun4743/AGILE-INNOVATORS-smart-helmet-"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code" /></a><br/>
+        • ⚡ <b>GOAT-CE</b> — Isolated Distributed Multi-Language Code Execution Sandbox &nbsp;<a href="https://github.com/Tharun4743/GOAT-CE"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white" alt="Code" /></a>
       </p>
       <p>
         <a href="https://tharunkumark4743.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0284c7?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
